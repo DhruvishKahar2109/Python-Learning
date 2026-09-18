@@ -1,2 +1,12 @@
+[project]
+name = "python-learning"
+version = "0.1.0"
+description = "Python learning projects"
+requires-python = ">=3.12"
+
+dependencies = [
+    "typer",
+]
+
 [tool.vercel]
 entrypoint = "basic.typerCLI:app"
